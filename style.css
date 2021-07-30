@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.head{
+    position: relative;
+    background: linear-gradient(to left, rgba(153, 153, 102,.8),rgba(204, 51, 0,.9) );
+    height: 600px;
+    width: 100%;
+}
+.head img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 700px;
+    width: 100%;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    mix-blend-mode: color;
+
+
+}
+
+.text{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+.text h1{font-size: 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.text h2{font-family: 'Otomanopee One', sans-serif;
+    
+font-size: 30px;
+color:rgb(217, 217, 217) ;
+
+}
+.big h1{margin-top: 50px;
+    font-family: 'Lobster', cursive;
+font-family: 'Otomanopee One', sans-serif;
+color:rgb(255, 255, 102) ;
+
+}
+.big i{
+    color:rgb(255, 51, 0) ;
+    padding: 5px 5px;
+    border-radius: 10px 15px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 40px;
+}
+
+.btn{margin-top: 40px;
+
+
+}
+.btn a{text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-family: 'Acme', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Otomanopee One', sans-serif;
+transition: 1s;
+
+}
+
+.btn a:hover{
+    border: 1px solid red;
+    color: red;
+}
+
+
+.btn i{
+    margin: 0 10px;
+}
+
+
+/*---form----*/
+
+
+
+.box {
+    margin: 0px auto;
+    height: 300px;
+    width: 1150px;
+    background-color:  rgba(230, 255, 255,.7);
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 8px 8px 16px rgba(0,0,0,.4);
+    transition: 1s;
+}
+.form {
+    margin: 0px auto;
+    background: linear-gradient(to left, rgba(153, 153, 102,.8),rgba(204, 51, 0,.9) );
+    padding: 10px;
+
+}
+
+.box:hover{
+    transform: scale(1.02);
+}
+
+
+
+.information{
+    margin: 50px 50px;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Acme', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Otomanopee One', sans-serif;
+font-size: 10px;
+    
+}
+
+.two{font-size: 15px;
+    font-family: 'Acme', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Otomanopee One', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.three:hover{
+    transform: scale(1.05);
+    color: black;
+}
+
+
+
+
+#first{
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-family: 'Acme', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Otomanopee One', sans-serif;
+color: red;
+padding: 5px 10px;
+}
+label{
+    font-size: 15px;
+}
